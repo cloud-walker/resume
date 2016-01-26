@@ -5,4 +5,4 @@ gulp.task('default', sequence('build', 'watch'))
 
 gulp.task('build', sequence('clean', 'html'))
 
-gulp.task('watch', ['sync'])
+gulp.task('watch', ['sync', 'html:watch'])
