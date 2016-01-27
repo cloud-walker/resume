@@ -1,7 +1,4 @@
-doctype html
-html
-	head
-		meta(charset='utf-8')
-		link(rel='stylesheet', href='/index.css')
-	body
-		#content it works
+extends ./layout
+
+block config
+	- var content = 'home'
