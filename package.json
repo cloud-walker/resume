@@ -8,9 +8,13 @@
     "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-jade": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
     "gulp-sequence": "^0.4.4",
     "gulp-stylus": "^2.2.0",
     "gulp-watch": "^4.3.5",
+    "isexe": "^1.0.1",
+    "normalize.css": "^3.0.3",
     "require-dir": "^0.3.0"
   }
 }
