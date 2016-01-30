@@ -5,14 +5,14 @@ import sync from 'browser-sync'
 import config from '../config'
 
 gulp.task('html', function () {
-	gulp.src(`${config.src}/**/index.jade`)
+	gulp.src(`${config.src}/views/**/index.jade`)
 		.pipe(jade())
 		.pipe(gulp.dest(config.dest))
 		.pipe(sync.stream())
 })
 
 gulp.task('html:watch', function () {
-	watch(`${config.src}/**/*.jade`, function () {
+	watch(`${config.src}/views/**/*.jade`, function () {
 		gulp.start('html')
 	})
 })
